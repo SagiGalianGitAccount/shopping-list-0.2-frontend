@@ -1,0 +1,43 @@
+#addafterme{
+    white-space: nowrap;
+
+}
+.food-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+    padding:0;
+    border: 1px solid #dcdcdc; /* light gray border */
+  background-color: #f0f8ff; /* pale blue background */
+  padding: 10px; /* add some padding to the content inside the card */
+  margin: 10px; /* add some margin around the card */
+}
+.title{
+    margin-left: 2px;
+    white-space: nowrap;
+}
+.title-container{
+    width: 30%;
+    overflow-x: scroll;
+    padding-right: 3px;
+}
+.amount-container{
+    width: 10%;
+    overflow-x: scroll;
+    padding-right: 3px;
+}
+.buttons-container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    overflow-x: scroll;
+    width: 50%;
+}
+.inner-buttons-container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    overflow-x: scroll;
+}

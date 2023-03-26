@@ -1,0 +1,20 @@
+.list-container {
+  text-align: center;
+}
+.inupdate {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 80%;
+  height: fit-content;
+  background-color: aquamarine;
+  transform: translate(-50%, -50%);
+  background-color: #232323;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: scroll;
+  margin-bottom: 20px;
+  color: white;
+  padding: 10px;
+}

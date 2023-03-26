@@ -1,0 +1,30 @@
+
+.header-link{
+    margin: 0;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    color: #282A35;
+}
+.header-link:hover{
+    background-color: white;
+    color: orange;
+}
+ul li{
+    list-style-type: none;
+}
+li{
+    padding: 20px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+      flex-direction: column;
+    }
+}
